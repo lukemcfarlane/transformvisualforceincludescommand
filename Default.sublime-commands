@@ -1,0 +1,8 @@
+[{
+
+	"caption": "Change Visualforce includes to point to a local path.",
+	"command": "transform_visualforce_includes",
+	"args": {
+		"local_path": "../../../resource-bundles"
+	}
+}]
