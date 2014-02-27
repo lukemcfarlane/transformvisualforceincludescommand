@@ -4,6 +4,7 @@ A Sublime Text 3 plugin.
 -------------------------
 
 When a Visualforce page is in the current view, this command goes through each line and converts all $Resource includes in the format:
+
 	<apex:includeScript value="{!URLFOR($Resource.myResource, 'lib/some_js_file.js')}"/>
 
 Into the format:
